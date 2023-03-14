@@ -1,10 +1,11 @@
-import React from "react";
-import Carousels from "./Carousel";
-import Card from "./Card";
-import Candies from "./Candies";
-import "../styles/home.css";
-import ImageCard from "./ImageCard";
-import brigadeiro from "../assets/brigadeiro.png";
+import React from 'react';
+import Carousels from './Carousel';
+import Card from './Card';
+import Candies from './Candies';
+import '../styles/home.css';
+import ImageCard from './ImageCard';
+import brigadeiro from '../assets/brigadeiro.png';
+import About from './About';
 
 export default function Home() {
   return (
@@ -29,13 +30,52 @@ export default function Home() {
         <Card />
         <section className="candies">
           <Candies>
-            <ImageCard url={brigadeiro} alt={"brigadeiro"} title={"Brigadeiro"} units={10} value={10}/>
-            <ImageCard url={brigadeiro} alt={"brigadeiro"} title={"Brigadeiro"} units={10} value={10.00}/>
-            <ImageCard url={brigadeiro} alt={"brigadeiro"} title={"Brigadeiro"} units={10} value={10.00}/>
-            <ImageCard url={brigadeiro} alt={"brigadeiro"} title={"Brigadeiro"} units={10} value={10.00}/>
-            <ImageCard url={brigadeiro} alt={"brigadeiro"} title={"Brigadeiro"} units={10} value={10.00}/>
-            <ImageCard url={brigadeiro} alt={"brigadeiro"} title={"Brigadeiro"} units={10} value={10.00}/>
+            <ImageCard
+              url={brigadeiro}
+              alt={'brigadeiro'}
+              title={'Brigadeiro'}
+              units={10}
+              value={10}
+            />
+            <ImageCard
+              url={brigadeiro}
+              alt={'brigadeiro'}
+              title={'Brigadeiro'}
+              units={10}
+              value={10.0}
+            />
+            <ImageCard
+              url={brigadeiro}
+              alt={'brigadeiro'}
+              title={'Brigadeiro'}
+              units={10}
+              value={10.0}
+            />
+            <ImageCard
+              url={brigadeiro}
+              alt={'brigadeiro'}
+              title={'Brigadeiro'}
+              units={10}
+              value={10.0}
+            />
+            <ImageCard
+              url={brigadeiro}
+              alt={'brigadeiro'}
+              title={'Brigadeiro'}
+              units={10}
+              value={10.0}
+            />
+            <ImageCard
+              url={brigadeiro}
+              alt={'brigadeiro'}
+              title={'Brigadeiro'}
+              units={10}
+              value={10.0}
+            />
           </Candies>
+        </section>
+        <section className="about">
+          <About />
         </section>
       </main>
     </>
