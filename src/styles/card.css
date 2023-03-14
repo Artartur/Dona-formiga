@@ -1,0 +1,29 @@
+  
+  .card-container, .card-text{
+        align-items: center;
+        border-radius:12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+  }
+  .card{
+        background-color:rgb(238, 103, 103);
+        box-shadow: 3px 6px 16px 3px rgb(134, 37, 37);
+        position: absolute;
+    }
+    .card-text{
+        height: 15vh;
+    }
+    .card-text div{
+        margin:0 20px;
+        text-align: center;
+    }
+    .card-text > p{
+        border-right: 3px solid rgb(191, 78, 78);
+        height:70%;
+        margin: 50% 0;
+    } 
+    .card-text div p{
+        font-size: 16px;
+        margin: 2% 0;
+    }

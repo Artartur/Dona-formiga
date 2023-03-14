@@ -1,0 +1,57 @@
+
+header,
+header > .container{
+  align-items: center;
+  background-color: rgb(178, 55, 55);
+  display: flex;
+  justify-content: center;
+}
+
+header > .container {
+  justify-content: space-between;
+  padding: 20px;
+  width: 80%;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a,
+.logo > a {
+  color: white;
+  padding: 40px 0;
+  text-decoration: none;
+}
+
+nav a:hover{
+  border-bottom: 3px solid rgb(247, 115, 115);
+  color: rgb(247, 115, 115);
+  padding: 26px 0;
+}
+
+.button a {
+  background-color: rgb(209, 49, 49);
+  border: 2px solid white;
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.button > a:hover {
+  background-color: rgb(166, 28, 28);
+}

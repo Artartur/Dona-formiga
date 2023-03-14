@@ -1,0 +1,54 @@
+.home, .containerHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.containerHome {
+  background-color: rgb(248, 212, 212);
+  width: 78%;
+  padding: 5%;
+  justify-content: space-around;
+}
+.texts{
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .texts h4{
+  color: rgb(226, 84, 84);
+  font-size: 20px;
+  font-weight: bold;
+ }
+
+ .texts h1{
+  font-size: 50px;
+  margin: 2% 0;
+}
+
+.texts  p{
+  font-size: 16px;
+  margin: 2% 0;
+}
+
+button{
+  margin-top: 4%;
+  color: white;
+  background-color: rgb(196, 52, 52);
+  padding: 2% 6%;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+button:hover{
+  background-color:rgb(134, 37, 37);
+}
+
+
