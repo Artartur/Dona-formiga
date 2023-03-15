@@ -1,20 +1,20 @@
 .home, .containerHome {
+  align-items: center;
+  border-radius: 10px 10px 0px 0px;
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 10px;
-  border-radius: 10px 10px 0px 0px;
 }
 
 .containerHome {
   background-color: rgb(248, 212, 212);
-  width: 78%;
-  padding: 5%;
   justify-content: space-around;
+  padding: 5%;
+  width: 78%;
 }
 .texts{
-  justify-content: center;
   align-items: center;
+  justify-content: center;
  }
  
  .texts h4{
@@ -34,18 +34,18 @@
 }
 
 button{
-  margin-top: 4%;
-  color: white;
+  align-items: center;
   background-color: rgb(196, 52, 52);
-  padding: 2% 6%;
   border: none;
   border-radius: 20px;
-  font-weight: bold;
+  color: white;
   cursor: pointer;
-  text-align: center;
-  align-items: center;
   display: flex;
+  font-weight: bold;
   justify-content: center;
+  margin-top: 4%;
+  padding: 2% 6%;
+  text-align: center;
 }
 button:hover{
   background-color:rgb(134, 37, 37);
