@@ -1,46 +1,45 @@
 .about {
-    padding: 2%;
-  }
-  
-  .about,
-  .about-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-    width: 78%;
-    margin: 0 auto;
-  }
-  
-  .about-image{
-      margin: 0px 2%;
-  }
-  
-  .about-image > img{
-    width:490px;
-  }
-  
-  .about-texts{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    max-width: 60%;
-  }
-  
-  .about-texts > h2 {
-    color: rgb(226, 84, 84);
-    font-weight: bold;
-    font-size: 35px;
-  }
-  
-  .about-texts > h1 {
-    font-weight: bold;
-    font-size: 45px;
-  }
-  
-  .about-desc{
-  
-  }
+  padding: 2%;
+}
+
+.about,
+.about-container, .about-titles, .about-texts, .about-desc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  width: 78%;
+  margin: 0 auto;
+}
+
+.about-titles {
+  margin: 2% 0 4% 0;
+}
+
+.about-titles > h2 {
+  color: rgb(226, 84, 84);
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.about-image {
+  margin: 0px 2%;
+}
+
+.about-image > img {
+  width: 400px;
+}
+
+.about-texts {
+  flex-direction: row;
+  max-width: 80%;
+}
+
+.about-desc h3{
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0 0 5% 0;
+}
+

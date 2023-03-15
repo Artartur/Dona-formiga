@@ -1,16 +1,20 @@
-import React from 'react';
-import confeiteiro from '../assets/brigadeiro.png';
-import '../styles/about.css';
+import React from "react";
+import confectioner from "../assets/confectioner.jpg";
+import "../styles/about.css";
 
 export default function About() {
   return (
     <>
       <div className="about-container">
-        
-        <div className="about-texts">
+        <div className="about-titles">
           <h2>Sobre nós</h2>
-          <h1>Entenda quem somos</h1>
+        </div>
+        <div className="about-texts">
+          <div className="about-image">
+            <img src={confectioner} alt="Imagem de um confeiteiro" />
+          </div>
           <div className="about-desc">
+            <h3>Entenda quem somos</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit do eiusmod
               tempor incididunt ut labore et dolore magna Ut enim ad minim
