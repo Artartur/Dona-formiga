@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/candies.css";
-import ImageCard from "./ImageCard";
 
 type Props = {
   children: JSX.Element[];
