@@ -1,5 +1,4 @@
 import React from "react";
-import brigadeiro from "../assets/brigadeiro.png";
 import "../styles/candies.css";
 
 type Card = {
