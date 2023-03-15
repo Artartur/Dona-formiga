@@ -4,14 +4,14 @@
 
 .about,
 .about-container, .about-titles, .about-texts, .about-desc{
-  display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  text-align: center;
   background-color: white;
-  width: 78%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 auto;
+  text-align: center;
+  width: 78%;
 }
 
 .about-titles {
@@ -20,8 +20,8 @@
 
 .about-titles > h2 {
   color: rgb(226, 84, 84);
-  font-weight: bold;
   font-size: 35px;
+  font-weight: bold;
 }
 
 .about-image {
@@ -38,8 +38,8 @@
 }
 
 .about-desc h3{
-  font-weight: bold;
   font-size: 30px;
+  font-weight: bold;
   margin: 0 0 5% 0;
 }
 
